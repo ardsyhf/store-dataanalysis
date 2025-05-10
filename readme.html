@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superstore Data Analysis Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1, h2, h3 { color: #2c3e50; }
+        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+
+<h1>Superstore Sales Data Analysis</h1>
+
+<p>This documentation summarizes three key analyses performed using Python and related data science libraries. The analyses include:</p>
+
+<ul>
+    <li><strong>Pareto Analysis</strong> of product sub-categories by profit.</li>
+    <li><strong>Time Series Analysis</strong> of sales and profit over time.</li>
+    <li><strong>Correlation Analysis</strong> between discount and profit.</li>
+</ul>
+
+<h2>1. Pareto Analysis</h2>
+<p>This analysis follows the <em>80/20 rule</em> to identify which product sub-categories contribute the most to the overall profit. By sorting and calculating cumulative profit percentages, we visualize which few categories drive most of the profitability.</p>
+<p><strong>Conclusion:</strong> A small number of sub-categories contribute disproportionately to the overall profit, supporting the Pareto principle.</p>
+
+<h2>2. Time Series Analysis</h2>
+<p>We analyzed trends in sales and profit over time using line plots on monthly aggregated data. This helps understand seasonality and long-term business performance.</p>
+<p><strong>Conclusion:</strong> Sales tend to show seasonal patterns, and there are fluctuations in profitability that require further investigation for decision-making.</p>
+
+<h2>3. Discount vs Profit</h2>
+<p>Using scatter plots and linear regression, we examined the relationship between discounts offered and the resulting profit.</p>
+<p><strong>Conclusion:</strong> There is a weak to moderate negative correlation between discount and profit, suggesting that high discounts often reduce profitability.</p>
+
+<h2>References</h2>
+<pre><code># Python Libraries Used
+
+# pandas: Data manipulation and analysis
+# McKinney, W. (2010). Data Structures for Statistical Computing in Python. Proc. of the 9th Python in Science Conf.
+
+# matplotlib: Plotting and visualization
+# Hunter, J. D. (2007). Matplotlib: A 2D Graphics Environment. Computing in Science & Engineering.
+
+# seaborn: Statistical data visualization
+# Waskom, M. (2021). Seaborn: Statistical Data Visualization. Journal of Open Source Software.
+
+# scipy.stats.linregress: Statistical computation for regression
+# Virtanen, P., et al. (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods.
+</code></pre>
+
+<pre><code># Theoretical Sources
+
+# Pareto Principle
+# Juran, J. M. (1951). Quality Control Handbook. McGraw-Hill.
+
+# Time Series Analysis
+# Chatfield, C. (2003). The Analysis of Time Series: An Introduction (6th ed.). CRC Press.
+
+# Correlation and Profitability Analysis
+# Anderson, D. R., Sweeney, D. J., & Williams, T. A. (2012). Statistics for Business and Economics. Cengage Learning.
+</code></pre>
+
+</body>
+</html>
